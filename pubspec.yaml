@@ -1,0 +1,79 @@
+name: crunchshop
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.1
+  carousel_slider: ^4.0.0
+  connectivity_plus: ^2.3.6
+  dio: ^5.0.3
+  equatable: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_login_facebook: ^1.6.2
+  flutter_svg: ^1.1.6
+  flutter_switch: ^0.3.2
+  fluttertoast: ^8.2.1
+  font_awesome_flutter: ^10.4.0
+  get: ^4.6.5
+  google_fonts: ^4.0.4
+  google_sign_in: ^5.0.7
+  intl: ^0.17.0
+  pin_code_fields: ^7.3.0
+  pin_input_text_field: 4.1.0
+  shared_preferences: ^2.1.0
+  simple_animations: ^4.0.1
+  smooth_page_indicator: ^1.0.0+2
+  sms_autofill: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/json/
+    - assets/icons/
+
+  fonts:
+    - family: Be Vietnam Pro
+      fonts:
+        - asset: assets/fonts/BeVietnamProExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/BeVietnamProBold.ttf
+          weight: 700
+        - asset: assets/fonts/BeVietnamProMedium.ttf
+          weight: 500
+        - asset: assets/fonts/BeVietnamProSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BeVietnamProRegular.ttf
+          weight: 400
+        - asset: assets/fonts/BeVietnamProExtraLight.ttf
+          weight: 200
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Patua One
+      fonts:
+        - asset: assets/fonts/PatuaOneRegular.ttf
+          weight: 400
+    - family: halter
+      fonts:
+        - asset: assets/fonts/halter.ttf
